@@ -1,0 +1,21 @@
+html{background-color: rgb(200, 200, 200);}
+.title {
+    color: rgb(100, 100, 200);
+    font-size: 100px;
+    text-align: left;
+    text-shadow: 5px 5px rgb(255, 255, 255);
+}
+li.recipes {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(125, 150, 250);
+}
+img.imgsolid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: rgb(100, 100, 100);
+}
