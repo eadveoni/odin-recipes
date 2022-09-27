@@ -1,14 +1,28 @@
 html{background-color: rgb(200, 200, 200);}
-.title {
+.page-header {
     color: rgb(100, 100, 200);
     font-size: 100px;
     text-align: left;
     text-shadow: 5px 5px rgb(255, 255, 255);
 }
 li.recipes {
+    display: inline-block;
     font-size: 25px;
     font-style: italic;
     color: rgb(125, 150, 250);
+    border: 3px solid blue;
+    padding: 3px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-image: url("./images/bagelball.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lister {
+    list-style-type: none;
+    display: flex;
 }
 img.imgsolid {
     display: block;
@@ -18,4 +32,15 @@ img.imgsolid {
     outline-style: solid;
     outline-width: 3px;
     outline-color: rgb(100, 100, 100);
+}
+span.recipe-link-box {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 160px;
+    padding: 18px;
+}
+.centered-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%, -150%);
 }
