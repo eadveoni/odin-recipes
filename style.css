@@ -14,15 +14,19 @@ li.recipes {
     padding: 3px;
     width: 200px;
     height: 200px;
-    margin: 5px;
     background-image: url("./images/bagelball.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    flex: 0 1 auto;
 }
 .lister {
     list-style-type: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 img.imgsolid {
     display: block;
